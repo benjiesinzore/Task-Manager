@@ -1,0 +1,559 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.escodro.alkaa"
+4    android:versionCode="20207"
+5    android:versionName="2.2.7" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:5:5-81
+11-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+12-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:6:5-79
+12-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:7:5-77
+13-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:7:22-74
+14    <uses-permission android:name="android.permission.WAKE_LOCK" />
+14-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:5-68
+14-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:23:22-65
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:5-79
+15-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:24:22-76
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:5-77
+16-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:26:22-74
+17
+18    <permission
+18-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+19        android:name="com.escodro.alkaa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.escodro.alkaa.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+23
+24    <application
+24-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:9:5-43:19
+25        android:name="com.escodro.alkaa.AlkaaApp"
+25-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:10:9-33
+26        android:allowBackup="true"
+26-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:11:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.10.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3571497ef810ac2c1205bd61a9cc8759\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+28        android:debuggable="true"
+28-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:19:9-34
+29        android:extractNativeLibs="false"
+30        android:icon="@mipmap/ic_launcher"
+30-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:12:9-43
+31        android:label="@string/app_name"
+31-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:13:9-41
+32        android:roundIcon="@mipmap/ic_launcher_round"
+32-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:14:9-54
+33        android:supportsRtl="true"
+33-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:15:9-35
+34        android:testOnly="true"
+34-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:21:9-32
+35        android:theme="@style/Theme.Alkaa" >
+35-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:16:9-43
+36        <activity
+36-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\debug\AndroidManifest.xml:5:9-7:40
+37            android:name="androidx.activity.ComponentActivity"
+37-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\debug\AndroidManifest.xml:6:13-63
+38            android:exported="false" />
+38-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\debug\AndroidManifest.xml:7:13-37
+39        <activity
+39-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:19:9-41:20
+40            android:name="com.escodro.alkaa.presentation.MainActivity"
+40-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:20:13-71
+41            android:exported="true"
+41-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:21:13-36
+42            android:theme="@style/Theme.Alkaa"
+42-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:22:13-47
+43            android:windowSoftInputMode="adjustResize" >
+43-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:23:13-55
+44            <intent-filter>
+44-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:25:13-28:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:26:17-69
+45-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:26:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:27:17-77
+47-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:27:27-74
+48            </intent-filter>
+49            <intent-filter>
+49-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:30:13-39:29
+50                <action android:name="android.intent.action.VIEW" />
+50-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:31:17-69
+50-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:31:25-66
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:33:17-76
+52-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:33:27-73
+53                <category android:name="android.intent.category.BROWSABLE" />
+53-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:34:17-78
+53-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:34:27-75
+54
+55                <data
+55-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:36:17-38:44
+56                    android:host="com.escodro.alkaa"
+56-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:37:21-53
+57                    android:scheme="app" />
+57-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:38:21-41
+58            </intent-filter>
+59        </activity>
+60
+61        <receiver
+61-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-15:20
+62            android:name="com.escodro.alarm.TaskReceiver"
+62-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-58
+63            android:exported="false" >
+63-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+64            <intent-filter>
+64-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-14:29
+65                <action android:name="android.intent.action.BOOT_COMPLETED" />
+65-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-79
+65-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:25-76
+66                <action android:name="android.app.action.SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED" />
+66-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-107
+66-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:13:25-104
+67            </intent-filter>
+68        </receiver>
+69        <receiver
+69-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-18:20
+70            android:name="com.escodro.glance.data.TaskListGlanceReceiver"
+70-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+71            android:exported="false" >
+71-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+72            <intent-filter>
+72-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:29
+73                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+73-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-84
+73-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:25-81
+74            </intent-filter>
+75
+76            <meta-data
+76-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:65
+77                android:name="android.appwidget.provider"
+77-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-58
+78                android:resource="@xml/task_list_widget_info" />
+78-->[:features:glance] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\glance\build\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-62
+79        </receiver>
+80
+81        <activity
+81-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:23:9-26:40
+82            android:name="androidx.glance.appwidget.action.ActionTrampolineActivity"
+82-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:24:13-85
+83            android:enabled="true"
+83-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:25:13-35
+84            android:exported="false" />
+84-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:26:13-37
+85        <activity
+85-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:27:9-34:81
+86            android:name="androidx.glance.appwidget.action.InvisibleActionTrampolineActivity"
+86-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:28:13-94
+87            android:enabled="true"
+87-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:29:13-35
+88            android:exported="false"
+88-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:30:13-37
+89            android:launchMode="singleInstance"
+89-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:31:13-48
+90            android:noHistory="true"
+90-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:32:13-37
+91            android:taskAffinity="androidx.glance.appwidget.ListAdapterCallbackTrampoline"
+91-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:33:13-91
+92            android:theme="@style/Widget.Glance.AppWidget.CallbackTrampoline" />
+92-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:34:13-78
+93
+94        <receiver
+94-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:36:9-39:40
+95            android:name="androidx.glance.appwidget.action.ActionCallbackBroadcastReceiver"
+95-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:37:13-92
+96            android:enabled="true"
+96-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:38:13-35
+97            android:exported="false" />
+97-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:39:13-37
+98        <receiver
+98-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:40:9-47:20
+99            android:name="androidx.glance.appwidget.MyPackageReplacedReceiver"
+99-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:41:13-79
+100            android:enabled="true"
+100-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:42:13-35
+101            android:exported="false" >
+101-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:43:13-37
+102            <intent-filter>
+102-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:44:13-46:29
+103                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+103-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:45:17-84
+103-->[androidx.glance:glance-appwidget:1.0.0-beta01] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\29c706df285ff76ac4747519e20f82cf\transformed\glance-appwidget-1.0.0-beta01\AndroidManifest.xml:45:25-81
+104            </intent-filter>
+105        </receiver>
+106
+107        <provider
+107-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:29:9-37:20
+108            android:name="androidx.startup.InitializationProvider"
+108-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:30:13-67
+109            android:authorities="com.escodro.alkaa.androidx-startup"
+109-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:31:13-68
+110            android:exported="false" >
+110-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:32:13-37
+111            <meta-data
+111-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:34:13-36:52
+112                android:name="androidx.work.WorkManagerInitializer"
+112-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:35:17-68
+113                android:value="androidx.startup" />
+113-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:36:17-49
+114            <meta-data
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3a4ce7eabb14398856f542ef81975917\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+115                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+115-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3a4ce7eabb14398856f542ef81975917\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+116                android:value="androidx.startup" />
+116-->[androidx.emoji2:emoji2:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\3a4ce7eabb14398856f542ef81975917\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+117            <meta-data
+117-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\101a438770e6b3149e71c5b4aa77b02b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+118                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+118-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\101a438770e6b3149e71c5b4aa77b02b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+119                android:value="androidx.startup" />
+119-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\101a438770e6b3149e71c5b4aa77b02b\transformed\lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+120            <meta-data
+120-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+121                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+121-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+122                android:value="androidx.startup" />
+122-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+123        </provider>
+124
+125        <service
+125-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:39:9-45:35
+126            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+126-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:40:13-88
+127            android:directBootAware="false"
+127-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:41:13-44
+128            android:enabled="@bool/enable_system_alarm_service_default"
+128-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:42:13-72
+129            android:exported="false" />
+129-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:43:13-37
+130        <service
+130-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:46:9-52:35
+131            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+131-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:47:13-84
+132            android:directBootAware="false"
+132-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:48:13-44
+133            android:enabled="@bool/enable_system_job_service_default"
+133-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:49:13-70
+134            android:exported="true"
+134-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:50:13-36
+135            android:permission="android.permission.BIND_JOB_SERVICE" />
+135-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:51:13-69
+136        <service
+136-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:53:9-59:35
+137            android:name="androidx.work.impl.foreground.SystemForegroundService"
+137-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:54:13-81
+138            android:directBootAware="false"
+138-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:55:13-44
+139            android:enabled="@bool/enable_system_foreground_service_default"
+139-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:56:13-77
+140            android:exported="false" />
+140-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:57:13-37
+141
+142        <receiver
+142-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:61:9-66:35
+143            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+143-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:62:13-88
+144            android:directBootAware="false"
+144-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:63:13-44
+145            android:enabled="true"
+145-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:64:13-35
+146            android:exported="false" />
+146-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:65:13-37
+147        <receiver
+147-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:67:9-77:20
+148            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+148-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:68:13-106
+149            android:directBootAware="false"
+149-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:69:13-44
+150            android:enabled="false"
+150-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:70:13-36
+151            android:exported="false" >
+151-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:71:13-37
+152            <intent-filter>
+152-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:73:13-76:29
+153                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+153-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:17-87
+153-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:74:25-84
+154                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+154-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:17-90
+154-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:75:25-87
+155            </intent-filter>
+156        </receiver>
+157        <receiver
+157-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:78:9-88:20
+158            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+158-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:79:13-104
+159            android:directBootAware="false"
+159-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:80:13-44
+160            android:enabled="false"
+160-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:81:13-36
+161            android:exported="false" >
+161-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:82:13-37
+162            <intent-filter>
+162-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:84:13-87:29
+163                <action android:name="android.intent.action.BATTERY_OKAY" />
+163-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:17-77
+163-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:85:25-74
+164                <action android:name="android.intent.action.BATTERY_LOW" />
+164-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:17-76
+164-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:86:25-73
+165            </intent-filter>
+166        </receiver>
+167        <receiver
+167-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:89:9-99:20
+168            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+168-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:90:13-104
+169            android:directBootAware="false"
+169-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:91:13-44
+170            android:enabled="false"
+170-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:92:13-36
+171            android:exported="false" >
+171-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:93:13-37
+172            <intent-filter>
+172-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:95:13-98:29
+173                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+173-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:17-83
+173-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:96:25-80
+174                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:17-82
+174-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:97:25-79
+175            </intent-filter>
+176        </receiver>
+177        <receiver
+177-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:100:9-109:20
+178            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+178-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:101:13-103
+179            android:directBootAware="false"
+179-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:102:13-44
+180            android:enabled="false"
+180-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:103:13-36
+181            android:exported="false" >
+181-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:104:13-37
+182            <intent-filter>
+182-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:106:13-108:29
+183                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+183-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:17-79
+183-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:107:25-76
+184            </intent-filter>
+185        </receiver>
+186        <receiver
+186-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:110:9-121:20
+187            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+187-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:111:13-88
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:112:13-44
+189            android:enabled="false"
+189-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:113:13-36
+190            android:exported="false" >
+190-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:114:13-37
+191            <intent-filter>
+191-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:116:13-120:29
+192                <action android:name="android.intent.action.BOOT_COMPLETED" />
+192-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-79
+192-->[:features:alarm] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\alarm\build\intermediates\merged_manifest\debug\AndroidManifest.xml:12:25-76
+193                <action android:name="android.intent.action.TIME_SET" />
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:17-73
+193-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:118:25-70
+194                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:17-81
+194-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:119:25-78
+195            </intent-filter>
+196        </receiver>
+197        <receiver
+197-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:122:9-131:20
+198            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+198-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:123:13-99
+199            android:directBootAware="false"
+199-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:124:13-44
+200            android:enabled="@bool/enable_system_alarm_service_default"
+200-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:125:13-72
+201            android:exported="false" >
+201-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:126:13-37
+202            <intent-filter>
+202-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:128:13-130:29
+203                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+203-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:17-98
+203-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:129:25-95
+204            </intent-filter>
+205        </receiver>
+206        <receiver
+206-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:132:9-142:20
+207            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+207-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:133:13-78
+208            android:directBootAware="false"
+208-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:134:13-44
+209            android:enabled="true"
+209-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:135:13-35
+210            android:exported="true"
+210-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:136:13-36
+211            android:permission="android.permission.DUMP" >
+211-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:137:13-57
+212            <intent-filter>
+212-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:139:13-141:29
+213                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+213-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:17-88
+213-->[androidx.work:work-runtime:2.8.1] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\726a05e3a90b477e31ff81c6bd0265ce\transformed\work-runtime-2.8.1\AndroidManifest.xml:140:25-85
+214            </intent-filter>
+215        </receiver>
+216
+217        <service
+217-->[androidx.core:core-remoteviews:1.0.0-beta04] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\6c165d3ebd4e8d7a5c7d3cce88534991\transformed\core-remoteviews-1.0.0-beta04\AndroidManifest.xml:24:9-27:63
+218            android:name="androidx.core.widget.RemoteViewsCompatService"
+218-->[androidx.core:core-remoteviews:1.0.0-beta04] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\6c165d3ebd4e8d7a5c7d3cce88534991\transformed\core-remoteviews-1.0.0-beta04\AndroidManifest.xml:25:13-73
+219            android:permission="android.permission.BIND_REMOTEVIEWS" />
+219-->[androidx.core:core-remoteviews:1.0.0-beta04] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\6c165d3ebd4e8d7a5c7d3cce88534991\transformed\core-remoteviews-1.0.0-beta04\AndroidManifest.xml:26:13-69
+220
+221        <uses-library
+221-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+222            android:name="androidx.window.extensions"
+222-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+223            android:required="false" />
+223-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+224        <uses-library
+224-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+225            android:name="androidx.window.sidecar"
+225-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+226            android:required="false" />
+226-->[androidx.window:window:1.0.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\952d99440585ee0c2310006d454e3ee5\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+227
+228        <service
+228-->[androidx.room:room-runtime:2.5.2] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\eb32f78b65e1af79f1124743006e50d8\transformed\room-runtime-2.5.2\AndroidManifest.xml:24:9-28:63
+229            android:name="androidx.room.MultiInstanceInvalidationService"
+229-->[androidx.room:room-runtime:2.5.2] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\eb32f78b65e1af79f1124743006e50d8\transformed\room-runtime-2.5.2\AndroidManifest.xml:25:13-74
+230            android:directBootAware="true"
+230-->[androidx.room:room-runtime:2.5.2] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\eb32f78b65e1af79f1124743006e50d8\transformed\room-runtime-2.5.2\AndroidManifest.xml:26:13-43
+231            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+231-->[androidx.room:room-runtime:2.5.2] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\eb32f78b65e1af79f1124743006e50d8\transformed\room-runtime-2.5.2\AndroidManifest.xml:27:13-37
+232        <activity
+232-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:18:9-24:45
+233            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+233-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:19:13-100
+234            android:enabled="false"
+234-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:20:13-36
+235            android:exported="false"
+235-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:21:13-37
+236            android:launchMode="singleInstance"
+236-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:22:13-48
+237            android:process=":playcore_missing_splits_activity"
+237-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:23:13-64
+238            android:stateNotNeeded="true" />
+238-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:24:13-42
+239        <activity
+239-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:25:9-29:65
+240            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+240-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:26:13-93
+241            android:exported="false"
+241-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:27:13-37
+242            android:stateNotNeeded="true"
+242-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:28:13-42
+243            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+243-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:29:13-62
+244        <service
+244-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:32:9-39:19
+245            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+245-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:33:13-94
+246            android:enabled="false"
+246-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:34:13-36
+247            android:exported="true" >
+247-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:35:13-36
+248            <meta-data
+248-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:36:13-38:41
+249                android:name="com.google.android.play.core.assetpacks.versionCode"
+249-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:37:17-83
+250                android:value="11003" />
+250-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:38:17-38
+251        </service>
+252        <service
+252-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:40:9-43:40
+253            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+253-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:41:13-95
+254            android:enabled="false"
+254-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:42:13-36
+255            android:exported="false" />
+255-->[com.google.android.play:core:1.10.3] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\d6b1857091697d4c8775540c2e6e744f\transformed\core-1.10.3\AndroidManifest.xml:43:13-37
+256
+257        <receiver
+257-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+258            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+258-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+259            android:directBootAware="false"
+259-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+260            android:enabled="true"
+260-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+261            android:exported="true"
+261-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+262            android:permission="android.permission.DUMP" >
+262-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+263            <intent-filter>
+263-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+264                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+264-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+265            </intent-filter>
+266            <intent-filter>
+266-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+267                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+267-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+268            </intent-filter>
+269            <intent-filter>
+269-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+270                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+270-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+271            </intent-filter>
+272            <intent-filter>
+272-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+273                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+273-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Benjamin Sinzore\.gradle\caches\transforms-3\14829d2326802b90c1b8cec41c8de3f4\transformed\profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+274            </intent-filter>
+275        </receiver>
+276
+277        <activity
+277-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:22:9-37:20
+278            android:name="com.escodro.tracker.presentation.TrackerActivity"
+278-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:23:13-76
+279            android:exported="true"
+279-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:24:13-36
+280            android:splitName="tracker"
+280-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:25:13-40
+281            android:theme="@style/Theme.Alkaa" >
+281-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:26:13-47
+282            <intent-filter>
+282-->[:features:tracker] C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\features\tracker\build\intermediates\metadata_feature_manifest\debug\AndroidManifest.xml:27:13-36:29
+283                <action android:name="android.intent.action.VIEW" />
+283-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:31:17-69
+283-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:31:25-66
+284
+285                <category android:name="android.intent.category.DEFAULT" />
+285-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:33:17-76
+285-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:33:27-73
+286                <category android:name="android.intent.category.BROWSABLE" />
+286-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:34:17-78
+286-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:34:27-75
+287
+288                <data
+288-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:36:17-38:44
+289                    android:host="com.escodro.tracker"
+289-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:37:21-53
+290                    android:scheme="app" />
+290-->C:\Users\Benjamin Sinzore\Documents\HeavyStaff\Android Git Projects\TaskManager\alkaa-main\app\src\main\AndroidManifest.xml:38:21-41
+291            </intent-filter>
+292        </activity>
+293    </application>
+294
+295</manifest>

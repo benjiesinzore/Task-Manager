@@ -1,0 +1,38 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.escodro.alkaa.test.app-mergeDebugAndroidTestResources-45:/values-v16/values-v16.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Benjamin Sinzore\\.gradle\\caches\\transforms-3\\6c09964f702bf7040306b5c42d1dcb02\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Benjamin Sinzore\\.gradle\\caches\\transforms-3\\3571497ef810ac2c1205bd61a9cc8759\\transformed\\core-1.10.1\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                }
+            ]
+        }
+    ]
+}

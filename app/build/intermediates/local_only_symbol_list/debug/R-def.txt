@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+bool is_light_status_bar
+color ic_launcher_background
+color status_color_bar
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+raw aboutlibraries
+string dynamic_feature_title_tracker
+string home_title_categories
+string home_title_search
+string home_title_settings
+string home_title_tasks
+style Theme.Alkaa

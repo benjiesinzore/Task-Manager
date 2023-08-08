@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="http://schemas.android.com/tools">
+    <bool name="is_light_status_bar">true</bool>
+    <color name="ic_launcher_background">#1976D2</color>
+    <color name="status_color_bar">@android:color/white</color>
+    <string name="dynamic_feature_title_tracker" ns1:ignore="UnusedResources" translatable="false">Task Tracker</string>
+    <string name="home_title_categories">Categories</string>
+    <string name="home_title_search">Search</string>
+    <string name="home_title_settings">More</string>
+    <string name="home_title_tasks">Tasks</string>
+    <style name="Theme.Alkaa" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowLightStatusBar">@bool/is_light_status_bar</item>
+        <item name="android:statusBarColor">@color/status_color_bar</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+</resources>

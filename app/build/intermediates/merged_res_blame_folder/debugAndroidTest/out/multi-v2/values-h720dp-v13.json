@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.escodro.alkaa.test.app-mergeDebugAndroidTestResources-45:/values-h720dp-v13/values-h720dp-v13.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Benjamin Sinzore\\.gradle\\caches\\transforms-3\\6c09964f702bf7040306b5c42d1dcb02\\transformed\\appcompat-1.6.1\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

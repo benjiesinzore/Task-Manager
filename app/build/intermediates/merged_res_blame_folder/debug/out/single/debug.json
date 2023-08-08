@@ -1,0 +1,74 @@
+[
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/raw_aboutlibraries.json.flat",
+        "source": "com.escodro.alkaa.app-debug-66:/raw/aboutlibraries.json"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.escodro.alkaa.app-merged_res-71:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.escodro.alkaa.app-main-73:/mipmap-hdpi/ic_launcher_foreground.png"
+    }
+]

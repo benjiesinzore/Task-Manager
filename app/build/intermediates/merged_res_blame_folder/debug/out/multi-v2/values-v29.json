@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.escodro.alkaa.app-mergeDebugResources-69:/values-v29/values-v29.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Benjamin Sinzore\\.gradle\\caches\\transforms-3\\29c706df285ff76ac4747519e20f82cf\\transformed\\glance-appwidget-1.0.0-beta01\\res\\values-v29\\values-v29.xml",
+                    "from": {
+                        "startLines": "2,6,10,14,15,19",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,247,441,635,724,862",
+                        "endLines": "5,9,13,14,18,22",
+                        "endColumns": "12,12,12,88,12,12",
+                        "endOffsets": "242,436,630,719,857,995"
+                    }
+                }
+            ]
+        }
+    ]
+}
